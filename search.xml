@@ -38,7 +38,7 @@
 ---
 &lt;link type=&quot;text/css&quot; href=&quot;/fancybox/jquery.fancybox.css&quot; rel=&quot;stylesheet&quot;&gt;
 &lt;div class=&quot;instagram&quot;&gt;&lt;section class=&quot;archives album&quot;&gt;&lt;ul class=&quot;img-box-ul&quot;&gt;&lt;/ul&gt;&lt;/section&gt;&lt;/div&gt;
-</code></pre>   <script src="/photo.js"></script>]]></content>
+</code></pre>   <script src="/js/photo.js"></script>]]></content>
     </entry>
     
     <entry>
