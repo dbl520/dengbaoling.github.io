@@ -30,47 +30,5 @@
   
   
     
-    <entry>
-      <title></title>
-      <url>http://dengbaoling.github.io/photo/index.html</url>
-      <content type="html"><![CDATA[<p> title: 相册</p>
-<pre><code>noDate: &apos;true&apos;
----
-&lt;link type=&quot;text/css&quot; href=&quot;/fancybox/jquery.fancybox.css&quot; rel=&quot;stylesheet&quot;&gt;
-&lt;div class=&quot;instagram&quot;&gt;&lt;section class=&quot;archives album&quot;&gt;&lt;ul class=&quot;img-box-ul&quot;&gt;&lt;/ul&gt;&lt;/section&gt;&lt;/div&gt;
-</code></pre>   <script src="/js/photo.js"></script>]]></content>
-    </entry>
-    
-    <entry>
-      <title></title>
-      <url>http://dengbaoling.github.io/photo/tool.js</url>
-      <content type="html"><![CDATA["use strict";
-    const fs = require("fs");
-    const path = "../../photos";
-
-    fs.readdir(path, function (err, files) {
-        if (err) {
-            return;
-        }
-        let arr = [];
-        (function iterator(index) {
-            if (index == files.length) {
-                fs.writeFile("output.json", JSON.stringify(arr, null, "\t"));
-                return;
-            }
-
-            fs.stat(path + "/" + files[index], function (err, stats) {
-                if (err) {
-                    return;
-                }
-                if (stats.isFile()) {
-                    arr.push(files[index]);
-                }
-                iterator(index + 1);
-            })
-        }(0));
-    });]]></content>
-    </entry>
-    
   
 </search>
