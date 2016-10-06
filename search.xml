@@ -4,6 +4,17 @@
   
     
     <entry>
+      <title><![CDATA[前端由来!]]></title>
+      <url>http://dengbaoling.github.io/2016/10/05/hello/</url>
+      <content type="html"><![CDATA[<a id="more"></a> 
+<h1 id="前端的奇妙之旅"><a href="#前端的奇妙之旅" class="headerlink" title="前端的奇妙之旅"></a>前端的奇妙之旅</h1><h2 id="前端主要由css-html-js-以及前端框架组成！"><a href="#前端主要由css-html-js-以及前端框架组成！" class="headerlink" title="前端主要由css,html,js,以及前端框架组成！"></a>前端主要由css,html,js,以及前端框架组成！</h2><h2 id="话说一个月黑风高的晚上，嘿嘿嘿，你懂得。。。"><a href="#话说一个月黑风高的晚上，嘿嘿嘿，你懂得。。。" class="headerlink" title="话说一个月黑风高的晚上，嘿嘿嘿，你懂得。。。"></a>话说一个月黑风高的晚上，嘿嘿嘿，你懂得。。。</h2><p><img src="https://dengbaoling.github.io/photos/1.png" alt=""></p>
+<h1 id="闭包"><a href="#闭包" class="headerlink" title="闭包"></a>闭包</h1><hr>
+<figure class="highlight plain"><figcaption><span>numberGenerator() &#123;</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">  // Local “free” variable that ends up within the closure</div><div class="line">  var num = 1; </div><div class="line">  function checkNumber() &#123; </div><div class="line">    console.log(num);</div><div class="line">  &#125;</div><div class="line">  num++; </div><div class="line">  return checkNumber; </div><div class="line">&#125; </div><div class="line">var number = numberGenerator(); </div><div class="line">number(); // 2</div></pre></td></tr></table></figure>
+<p><em>在以上例子中，numberGenerator 函数创建了一个局部的自由变量 num (一个数字) 和 checkNumber 函数 (一个在控制台打印 num 的函数)。checkNumber 函数没有自己的局部变量，但是，由于使用了闭包，它可以通过 numberGenerator 这个外部函数来访问（外部声明的）变量。因此即使在 numberGenerator 函数被返回以后，checkNumber 函数也可以使用 numberGenerator 中声明的变量 num 从而成功地在控制台记录日志。</em></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[markdown用法]]></title>
       <url>http://dengbaoling.github.io/2016/10/05/hello-world/</url>
       <content type="html"><![CDATA[<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><h2 id="只需要在前面加入多少个-号即可"><a href="#只需要在前面加入多少个-号即可" class="headerlink" title="只需要在前面加入多少个#号即可"></a><em>只需要在前面加入多少个#号即可</em></h2><h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><p><em>熟悉 HTML 的同学肯定知道有序列表与无序列表的区别，在 Markdown 下，列表的显示只需要在文字前加上 - 或 </em> 即可变为无序列表，有序列表则直接在文字前加 1. 2. 3. 符号要和文字之间加上一个字符的空格。*<br>   <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">*1</div><div class="line">*2</div><div class="line">*3</div></pre></td></tr></table></figure></p>
@@ -42,9 +53,12 @@
 ]]></content>
     </entry>
     
+  
+  
+    
     <entry>
       <title><![CDATA[前端由来!]]></title>
-      <url>http://dengbaoling.github.io/2016/10/05/hello/</url>
+      <url>http://dengbaoling.github.io/css3/index.html</url>
       <content type="html"><![CDATA[<a id="more"></a> 
 <h1 id="前端的奇妙之旅"><a href="#前端的奇妙之旅" class="headerlink" title="前端的奇妙之旅"></a>前端的奇妙之旅</h1><h2 id="前端主要由css-html-js-以及前端框架组成！"><a href="#前端主要由css-html-js-以及前端框架组成！" class="headerlink" title="前端主要由css,html,js,以及前端框架组成！"></a>前端主要由css,html,js,以及前端框架组成！</h2><h2 id="话说一个月黑风高的晚上，嘿嘿嘿，你懂得。。。"><a href="#话说一个月黑风高的晚上，嘿嘿嘿，你懂得。。。" class="headerlink" title="话说一个月黑风高的晚上，嘿嘿嘿，你懂得。。。"></a>话说一个月黑风高的晚上，嘿嘿嘿，你懂得。。。</h2><p><img src="https://dengbaoling.github.io/photos/1.png" alt=""></p>
 <h1 id="闭包"><a href="#闭包" class="headerlink" title="闭包"></a>闭包</h1><hr>
@@ -53,8 +67,27 @@
 ]]></content>
     </entry>
     
-  
-  
+    <entry>
+      <title><![CDATA[前端由来!]]></title>
+      <url>http://dengbaoling.github.io/html5/index.html</url>
+      <content type="html"><![CDATA[<a id="more"></a> 
+<h1 id="前端的奇妙之旅"><a href="#前端的奇妙之旅" class="headerlink" title="前端的奇妙之旅"></a>前端的奇妙之旅</h1><h2 id="前端主要由css-html-js-以及前端框架组成！"><a href="#前端主要由css-html-js-以及前端框架组成！" class="headerlink" title="前端主要由css,html,js,以及前端框架组成！"></a>前端主要由css,html,js,以及前端框架组成！</h2><h2 id="话说一个月黑风高的晚上，嘿嘿嘿，你懂得。。。"><a href="#话说一个月黑风高的晚上，嘿嘿嘿，你懂得。。。" class="headerlink" title="话说一个月黑风高的晚上，嘿嘿嘿，你懂得。。。"></a>话说一个月黑风高的晚上，嘿嘿嘿，你懂得。。。</h2><p><img src="https://dengbaoling.github.io/photos/1.png" alt=""></p>
+<h1 id="闭包"><a href="#闭包" class="headerlink" title="闭包"></a>闭包</h1><hr>
+<figure class="highlight plain"><figcaption><span>numberGenerator() &#123;</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">  // Local “free” variable that ends up within the closure</div><div class="line">  var num = 1; </div><div class="line">  function checkNumber() &#123; </div><div class="line">    console.log(num);</div><div class="line">  &#125;</div><div class="line">  num++; </div><div class="line">  return checkNumber; </div><div class="line">&#125; </div><div class="line">var number = numberGenerator(); </div><div class="line">number(); // 2</div></pre></td></tr></table></figure>
+<p><em>在以上例子中，numberGenerator 函数创建了一个局部的自由变量 num (一个数字) 和 checkNumber 函数 (一个在控制台打印 num 的函数)。checkNumber 函数没有自己的局部变量，但是，由于使用了闭包，它可以通过 numberGenerator 这个外部函数来访问（外部声明的）变量。因此即使在 numberGenerator 函数被返回以后，checkNumber 函数也可以使用 numberGenerator 中声明的变量 num 从而成功地在控制台记录日志。</em></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[前端由来!]]></title>
+      <url>http://dengbaoling.github.io/jq/index.html</url>
+      <content type="html"><![CDATA[<a id="more"></a> 
+<h1 id="前端的奇妙之旅"><a href="#前端的奇妙之旅" class="headerlink" title="前端的奇妙之旅"></a>前端的奇妙之旅</h1><h2 id="前端主要由css-html-js-以及前端框架组成！"><a href="#前端主要由css-html-js-以及前端框架组成！" class="headerlink" title="前端主要由css,html,js,以及前端框架组成！"></a>前端主要由css,html,js,以及前端框架组成！</h2><h2 id="话说一个月黑风高的晚上，嘿嘿嘿，你懂得。。。"><a href="#话说一个月黑风高的晚上，嘿嘿嘿，你懂得。。。" class="headerlink" title="话说一个月黑风高的晚上，嘿嘿嘿，你懂得。。。"></a>话说一个月黑风高的晚上，嘿嘿嘿，你懂得。。。</h2><p><img src="https://dengbaoling.github.io/photos/1.png" alt=""></p>
+<h1 id="闭包"><a href="#闭包" class="headerlink" title="闭包"></a>闭包</h1><hr>
+<figure class="highlight plain"><figcaption><span>numberGenerator() &#123;</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">  // Local “free” variable that ends up within the closure</div><div class="line">  var num = 1; </div><div class="line">  function checkNumber() &#123; </div><div class="line">    console.log(num);</div><div class="line">  &#125;</div><div class="line">  num++; </div><div class="line">  return checkNumber; </div><div class="line">&#125; </div><div class="line">var number = numberGenerator(); </div><div class="line">number(); // 2</div></pre></td></tr></table></figure>
+<p><em>在以上例子中，numberGenerator 函数创建了一个局部的自由变量 num (一个数字) 和 checkNumber 函数 (一个在控制台打印 num 的函数)。checkNumber 函数没有自己的局部变量，但是，由于使用了闭包，它可以通过 numberGenerator 这个外部函数来访问（外部声明的）变量。因此即使在 numberGenerator 函数被返回以后，checkNumber 函数也可以使用 numberGenerator 中声明的变量 num 从而成功地在控制台记录日志。</em></p>
+]]></content>
+    </entry>
     
   
 </search>
