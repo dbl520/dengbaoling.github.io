@@ -3,8 +3,23 @@
 
     
   <url>
+    <loc>http://dengbaoling.github.io/2016/10/05/hello-world/</loc>
+    <lastmod>2016-10-06T15:19:18.350Z</lastmod>
+    <data>
+        <display>
+        <title>markdown用法</title>
+        <pubTime>2016-10-05T14:08:48.676Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://dengbaoling.github.io/2016/10/05/hello/</loc>
-    <lastmod>2016-10-06T14:32:28.958Z</lastmod>
+    <lastmod>2016-10-06T15:10:07.855Z</lastmod>
     <data>
         <display>
         <title>前端由来!</title>
@@ -18,21 +33,6 @@
          
         <tag>css3 </tag>
          
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://dengbaoling.github.io/2016/10/05/hello-world/</loc>
-    <lastmod>2016-10-05T14:08:48.690Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2016-10-05T14:08:48.676Z</pubTime>
-        
          
            
         </display>
