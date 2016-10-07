@@ -157,7 +157,7 @@
       <div class="body-wrap">
         
   
-    <article id="post-hello" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-jq-1" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <input type="hidden" class="isFancy" />
@@ -167,7 +167,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="2016/10/05/hello/">前端由来!</a>
+      <a class="article-title" href="2016/10/07/jq-1/">jq</a>
     </h1>
   
 
@@ -176,25 +176,15 @@
     <div class="article-entry" itemprop="articleBody">
       
             
-        <a id="more"></a> 
-<h1 id="前端的奇妙之旅"><a href="#前端的奇妙之旅" class="headerlink" title="前端的奇妙之旅"></a>前端的奇妙之旅</h1><h2 id="前端主要由css-html-js-以及前端框架组成！"><a href="#前端主要由css-html-js-以及前端框架组成！" class="headerlink" title="前端主要由css,html,js,以及前端框架组成！"></a>前端主要由css,html,js,以及前端框架组成！</h2><h2 id="话说一个月黑风高的晚上，嘿嘿嘿，你懂得。。。"><a href="#话说一个月黑风高的晚上，嘿嘿嘿，你懂得。。。" class="headerlink" title="话说一个月黑风高的晚上，嘿嘿嘿，你懂得。。。"></a>话说一个月黑风高的晚上，嘿嘿嘿，你懂得。。。</h2><p><img src="https://dengbaoling.github.io/photos/1.png" alt=""></p>
-<h1 id="闭包"><a href="#闭包" class="headerlink" title="闭包"></a>闭包</h1><hr>
-<figure class="highlight plain"><figcaption><span>numberGenerator() &#123;</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">  // Local “free” variable that ends up within the closure</div><div class="line">  var num = 1; </div><div class="line">  function checkNumber() &#123; </div><div class="line">    console.log(num);</div><div class="line">  &#125;</div><div class="line">  num++; </div><div class="line">  return checkNumber; </div><div class="line">&#125; </div><div class="line">var number = numberGenerator(); </div><div class="line">number(); // 2</div></pre></td></tr></table></figure>
-<p><em>在以上例子中，numberGenerator 函数创建了一个局部的自由变量 num (一个数字) 和 checkNumber 函数 (一个在控制台打印 num 的函数)。checkNumber 函数没有自己的局部变量，但是，由于使用了闭包，它可以通过 numberGenerator 这个外部函数来访问（外部声明的）变量。因此即使在 numberGenerator 函数被返回以后，checkNumber 函数也可以使用 numberGenerator 中声明的变量 num 从而成功地在控制台记录日志。</em></p>
-
+        
       
     </div>
     <div class="article-info article-info-index">
       
-      <a href="2016/10/05/hello/" class="archive-article-date">
-  	<time datetime="2016-10-05T14:19:33.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-10-05</time>
+      <a href="2016/10/07/jq-1/" class="archive-article-date">
+  	<time datetime="2016-10-07T06:37:32.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-10-07</time>
 </a>
       
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/css3/">css3</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/html5/">html5</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/js/">js</a></li></ul>
-	</div>
-
       
 
       <div class="clearfix"></div>
@@ -212,7 +202,7 @@
 
 
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-jq" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <input type="hidden" class="isFancy" />
@@ -222,7 +212,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="2016/10/05/hello-world/">markdown用法</a>
+      <a class="article-title" href="2016/10/07/jq/">jq</a>
     </h1>
   
 
@@ -231,53 +221,15 @@
     <div class="article-entry" itemprop="articleBody">
       
             
-        <h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><h2 id="只需要在前面加入多少个-号即可"><a href="#只需要在前面加入多少个-号即可" class="headerlink" title="只需要在前面加入多少个#号即可"></a><em>只需要在前面加入多少个#号即可</em></h2><h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><p><em>熟悉 HTML 的同学肯定知道有序列表与无序列表的区别，在 Markdown 下，列表的显示只需要在文字前加上 - 或 </em> 即可变为无序列表，有序列表则直接在文字前加 1. 2. 3. 符号要和文字之间加上一个字符的空格。*<br>   <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">*1</div><div class="line">*2</div><div class="line">*3</div></pre></td></tr></table></figure></p>
-<hr>
-<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><p><em>表格是我觉得 Markdown 比较累人的地方，例子如下：</em></p>
-<blockquote>
-<table>
-<thead>
-<tr>
-<th>Tables</th>
-<th style="text-align:center">Are</th>
-<th style="text-align:right">Cool</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>col 3 is</td>
-<td style="text-align:center">right-aligned</td>
-<td style="text-align:right">$1600</td>
-</tr>
-<tr>
-<td>col 2 is</td>
-<td style="text-align:center">centered</td>
-<td style="text-align:right">$12</td>
-</tr>
-<tr>
-<td>zebra stripes</td>
-<td style="text-align:center">are neat</td>
-<td style="text-align:right">$1</td>
-</tr>
-</tbody>
-</table>
-</blockquote>
-<h1 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h1><p><em>分割线的语法只需要另起一行，连续输入三个星号 **</em> 即可。*</p>
-<h1 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h1><figure class="highlight plain"><figcaption><span>class demo()&#123;</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">    public static void main(String args[])&#123;</div><div class="line">      System.out.println(123);</div><div class="line">&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-
+        
       
     </div>
     <div class="article-info article-info-index">
       
-      <a href="2016/10/05/hello-world/" class="archive-article-date">
-  	<time datetime="2016-10-05T14:19:33.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-10-05</time>
+      <a href="2016/10/07/jq/" class="archive-article-date">
+  	<time datetime="2016-10-07T06:31:39.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-10-07</time>
 </a>
       
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/css3/">css3</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/html5/">html5</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/jq/">jq</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/markdown/">markdown</a></li></ul>
-	</div>
-
       
 
       <div class="clearfix"></div>
@@ -363,7 +315,7 @@ Analyse with <script src="https://s4.cnzz.com/z_stat.php?id=1260537461&web_id=12
     
     	<section class="tools-section tools-section-tag">
     			<div class="widget tagcloud" id="js-tagcloud">
-    				<a href="tags/css3/" style="font-size: 20px;">css3</a> <a href="tags/hexo/" style="font-size: 15px;">hexo</a> <a href="tags/html5/" style="font-size: 20px;">html5</a> <a href="tags/jq/" style="font-size: 10px;">jq</a> <a href="tags/js/" style="font-size: 15px;">js</a> <a href="tags/markdown/" style="font-size: 10px;">markdown</a>
+    				<a href="tags/css3/" style="font-size: 20px;">css3</a> <a href="tags/hexo/" style="font-size: 10px;">hexo</a> <a href="tags/html5/" style="font-size: 20px;">html5</a> <a href="tags/jq/" style="font-size: 10px;">jq</a> <a href="tags/js/" style="font-size: 10px;">js</a> <a href="tags/markdown/" style="font-size: 10px;">markdown</a>
     			</div>
     	</section>
     

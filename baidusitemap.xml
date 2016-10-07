@@ -3,21 +3,13 @@
 
     
   <url>
-    <loc>http://dengbaoling.github.io/2016/10/05/jq/index/</loc>
-    <lastmod>2016-10-06T17:50:30.813Z</lastmod>
+    <loc>http://dengbaoling.github.io/2016/10/07/jq-1/</loc>
+    <lastmod>2016-10-07T06:37:32.991Z</lastmod>
     <data>
         <display>
         <title>jq</title>
-        <pubTime>2016-10-05T14:19:33.000Z</pubTime>
+        <pubTime>2016-10-07T06:37:32.000Z</pubTime>
         
-        <tag>js </tag>
-         
-        <tag>hexo </tag>
-         
-        <tag>html5 </tag>
-         
-        <tag>css3 </tag>
-         
          
            
         </display>
@@ -25,47 +17,14 @@
     </url>
 
     
-    
   <url>
-    <loc>http://dengbaoling.github.io/2016/10/05/css3/index/</loc>
-    <lastmod>2016-10-06T17:50:22.599Z</lastmod>
-    <data>
-        <display>
-        <title>css3</title>
-        <pubTime>2016-10-05T14:19:33.000Z</pubTime>
-        
-        <tag>js </tag>
-         
-        <tag>hexo </tag>
-         
-        <tag>html5 </tag>
-         
-        <tag>css3 </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-    
-  <url>
-    <loc>http://dengbaoling.github.io/2016/10/05/html5/index/</loc>
-    <lastmod>2016-10-06T17:50:11.413Z</lastmod>
+    <loc>http://dengbaoling.github.io/2016/10/07/html5/</loc>
+    <lastmod>2016-10-07T06:37:12.140Z</lastmod>
     <data>
         <display>
         <title>html5</title>
-        <pubTime>2016-10-05T14:19:33.000Z</pubTime>
+        <pubTime>2016-10-07T06:31:16.000Z</pubTime>
         
-        <tag>js </tag>
-         
-        <tag>hexo </tag>
-         
-        <tag>html5 </tag>
-         
-        <tag>css3 </tag>
-         
          
            
         </display>
@@ -73,6 +32,35 @@
     </url>
 
     
+  <url>
+    <loc>http://dengbaoling.github.io/2016/10/07/css3/</loc>
+    <lastmod>2016-10-07T06:35:56.612Z</lastmod>
+    <data>
+        <display>
+        <title>css3</title>
+        <pubTime>2016-10-07T06:31:28.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://dengbaoling.github.io/2016/10/07/jq/</loc>
+    <lastmod>2016-10-07T06:31:39.469Z</lastmod>
+    <data>
+        <display>
+        <title>jq</title>
+        <pubTime>2016-10-07T06:31:39.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
     
   <url>
     <loc>http://dengbaoling.github.io/2016/10/05/hello-world/</loc>
@@ -82,13 +70,13 @@
         <title>markdown用法</title>
         <pubTime>2016-10-05T14:19:33.000Z</pubTime>
         
-        <tag>html5 </tag>
-         
-        <tag>css3 </tag>
-         
         <tag>markdown </tag>
          
         <tag>jq </tag>
+         
+        <tag>html5 </tag>
+         
+        <tag>css3 </tag>
          
          
            
@@ -105,13 +93,13 @@
         <title>前端由来!</title>
         <pubTime>2016-10-05T14:19:33.000Z</pubTime>
         
-        <tag>js </tag>
-         
-        <tag>hexo </tag>
-         
         <tag>html5 </tag>
          
         <tag>css3 </tag>
+         
+        <tag>js </tag>
+         
+        <tag>hexo </tag>
          
          
            
