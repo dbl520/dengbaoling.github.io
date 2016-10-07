@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     
+    
   <url>
     <loc>http://dengbaoling.github.io/2016/10/07/html5/</loc>
     <lastmod>2016-10-07T06:37:12.140Z</lastmod>
@@ -55,13 +56,13 @@
         <title>markdown用法</title>
         <pubTime>2016-10-05T14:19:33.000Z</pubTime>
         
-        <tag>markdown </tag>
-         
-        <tag>jq </tag>
-         
         <tag>html5 </tag>
          
         <tag>css3 </tag>
+         
+        <tag>markdown </tag>
+         
+        <tag>jq </tag>
          
          
            
@@ -78,13 +79,13 @@
         <title>前端由来!</title>
         <pubTime>2016-10-05T14:19:33.000Z</pubTime>
         
-        <tag>html5 </tag>
-         
-        <tag>css3 </tag>
-         
         <tag>js </tag>
          
         <tag>hexo </tag>
+         
+        <tag>html5 </tag>
+         
+        <tag>css3 </tag>
          
          
            
