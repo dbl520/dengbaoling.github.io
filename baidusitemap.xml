@@ -2,7 +2,76 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     
+  <url>
+    <loc>http://dengbaoling.github.io/2016/10/05/jq/index/</loc>
+    <lastmod>2016-10-06T17:50:30.813Z</lastmod>
+    <data>
+        <display>
+        <title>jq</title>
+        <pubTime>2016-10-05T14:19:33.000Z</pubTime>
+        
+        <tag>js </tag>
+         
+        <tag>hexo </tag>
+         
+        <tag>html5 </tag>
+         
+        <tag>css3 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
     
+    
+  <url>
+    <loc>http://dengbaoling.github.io/2016/10/05/css3/index/</loc>
+    <lastmod>2016-10-06T17:50:22.599Z</lastmod>
+    <data>
+        <display>
+        <title>css3</title>
+        <pubTime>2016-10-05T14:19:33.000Z</pubTime>
+        
+        <tag>js </tag>
+         
+        <tag>hexo </tag>
+         
+        <tag>html5 </tag>
+         
+        <tag>css3 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://dengbaoling.github.io/2016/10/05/html5/index/</loc>
+    <lastmod>2016-10-06T17:50:11.413Z</lastmod>
+    <data>
+        <display>
+        <title>html5</title>
+        <pubTime>2016-10-05T14:19:33.000Z</pubTime>
+        
+        <tag>js </tag>
+         
+        <tag>hexo </tag>
+         
+        <tag>html5 </tag>
+         
+        <tag>css3 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
     
     
   <url>
